@@ -20,7 +20,6 @@ class Solution(object):
 
 s = "abc"
 t = "ahbgdc"
-# s = "axc" 
-# t = "ahbgdc"
+
 solution = Solution()
 print(solution.isSubsequence(s,t))
