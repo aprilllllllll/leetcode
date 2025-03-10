@@ -9,8 +9,7 @@ class Solution:
                     return[i,y]
            
 
-        return []  # Return an empty list if no valid pair is found
-
+        return [] 
 
 # Example usage:
 solution = Solution()
