@@ -14,7 +14,6 @@ class Solution(object):
                 second = x
             else:
                 return True
-
         return False
 
 solution = Solution()
