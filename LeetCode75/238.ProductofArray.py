@@ -9,8 +9,6 @@ class Solution(object):
         :rtype: List[int]
         """
 
-        #sperate left and right
-        # 
         result = []
         left = [1]
         right =[1]
