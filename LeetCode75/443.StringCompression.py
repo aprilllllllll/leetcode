@@ -4,12 +4,10 @@ class Solution(object):
         :type chars: List[str]
         :rtype: int
         """
-
         n = len(chars)
         i = 0
         idx = 0
         while i < n:
-
             ch = chars[i]
             count = 0
             print(chars[i], " ", count, idx)
