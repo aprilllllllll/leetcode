@@ -21,7 +21,6 @@ class Solution(object):
                 print(ch)
                 chars[idx] = ch
                 idx += 1
-
                 for digit in str(count):
                     chars[idx] = digit
                     idx += 1
