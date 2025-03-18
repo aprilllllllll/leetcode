@@ -8,7 +8,6 @@ class Solution(object):
         if k == 1: return max(nums)
 
         max_sum = temp = sum(nums[:k])
-
         for x in range(k,len(nums)):
             temp = temp -nums[x-k]+nums[x]
             if temp > max_sum:
