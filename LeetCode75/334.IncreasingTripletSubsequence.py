@@ -15,7 +15,6 @@ class Solution(object):
             else:
                 return True
         return False
-
 solution = Solution()
 nums = [2,1,5,0,4,6]
 print(solution.increasingTriplet(nums))
