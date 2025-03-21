@@ -23,7 +23,6 @@ class Solution(object):
             return max_length-1
         else:
    
-
             return max_length
 
 
