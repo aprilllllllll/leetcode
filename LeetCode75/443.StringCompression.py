@@ -27,7 +27,6 @@ class Solution(object):
         chars[:] = chars[:idx]
         return idx
 
-
 chars = ["a", "a", "b", "b", "c", "c", "c"]
 solution = Solution()
 print(solution.compress(chars))
