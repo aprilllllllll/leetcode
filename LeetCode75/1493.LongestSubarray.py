@@ -25,7 +25,6 @@ class Solution(object):
    
             return max_length
 
-
 nums =[1,1,0,0,1,1,1,0,1]
 solution = Solution()
 print(solution.longestSubarray(nums))
