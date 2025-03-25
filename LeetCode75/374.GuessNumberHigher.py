@@ -1,6 +1,5 @@
 pick =2
 n = 2
-
 def guess(num):
     if num > pick:
         return -1
