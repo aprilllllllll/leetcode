@@ -6,8 +6,7 @@ class Solution(object):
         """
         
         maxArea =0 
-        area = 0
-        
+
         left = 0
         right = len(height)-1
 
