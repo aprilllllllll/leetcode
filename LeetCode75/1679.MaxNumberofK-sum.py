@@ -9,7 +9,6 @@ class Solution(object):
         count =0
         l = {}
 
-
         for num in nums:
             r = k-num
             if r in l and l[r]>0:
