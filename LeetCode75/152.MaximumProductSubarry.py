@@ -12,7 +12,6 @@ class Solution(object):
 
             if curr< 0:
                 max_product,min_product= min_product,max_product
-
             
             max_product = max(max_product*curr,curr)
             min_product = min(min_product*curr,curr)
