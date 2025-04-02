@@ -25,7 +25,11 @@ class Solution(object):
                 elif sum <0:
                     left+=1
                 else:
-                    right-=1
+                    res.append([nums,nums[left],nums[right]])
+                    left+=1
+                
+
+
         return res
 
 solution = Solution()
