@@ -28,7 +28,6 @@ class Solution(object):
                 else:
                     res.append([nums,nums[left],nums[right]])
                     left+=1
-                
 
 
         return res
