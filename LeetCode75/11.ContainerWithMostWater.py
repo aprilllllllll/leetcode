@@ -4,7 +4,6 @@ class Solution(object):
         :type height: List[int]
         :rtype: int
         """
-        
         maxArea =0 
 
         left = 0
