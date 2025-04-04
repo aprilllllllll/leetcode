@@ -8,7 +8,6 @@ class Solution:
                 if y!=i:
                     return[i,y]
            
-
         return [] 
 
 # Example usage:
