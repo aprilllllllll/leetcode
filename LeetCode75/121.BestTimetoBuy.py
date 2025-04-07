@@ -11,7 +11,6 @@ class Solution(object):
 
             lowprice = min(lowprice,p)
 
-
             maxProfit = max(maxProfit, p-lowprice)
         
         return maxProfit
