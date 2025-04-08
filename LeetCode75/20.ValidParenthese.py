@@ -19,7 +19,6 @@ class Solution(object):
                     else:
                         return False
         return not stack 
-
 solution = Solution()
 s = "([)]"
 print(solution.isValid(s))
