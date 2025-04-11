@@ -10,7 +10,6 @@ class Solution(object):
             return -1
 
         else:
-            
             return nums.index(target)
 
 solution = Solution()
