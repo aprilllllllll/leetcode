@@ -9,8 +9,6 @@ class Solution(object):
 
 
         maxSum = nums[0]
-        currSum =0
-
 
 
         for n in nums:
