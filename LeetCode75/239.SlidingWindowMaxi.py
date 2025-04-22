@@ -1,3 +1,7 @@
+from collections import deque
+from unittest import result
+
+
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
         """
@@ -5,14 +9,33 @@ class Solution(object):
         :type k: int
         :rtype: List[int]
         """
-        max_nums=[]
-        for i in range(0,len(nums)-k+1):
-            max_nums.append(max(nums[i:i+k]))
+        dq = deque()
+        res = []
+        l=0
+        r =0
 
-        return max_nums
+        while r<len(nums):
+            
+            while dq and nums[dq[-1]]<nums[r]:
+                dq.pop()
+            dq.append(r)
+
+            if l>dq[0]:
+                dq.popleft()
+
+            if r+1>=k:
+                res.append(nums[dq[0]])
+                l+=1
+            r+=1
+        return res
+
+
+
+
+
 
 
 solution = Solution()
-nums = [1,3,-1,-3,5,3,6,7]
-k=3
+nums = [7,2,4]
+k=2
 print(solution.maxSlidingWindow(nums,k))
