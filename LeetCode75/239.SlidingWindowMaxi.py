@@ -34,7 +34,6 @@ class Solution(object):
 
 
 
-
 solution = Solution()
 nums = [7,2,4]
 k=2
