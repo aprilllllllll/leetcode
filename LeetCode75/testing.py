@@ -3,7 +3,6 @@ def findMinCost(demand):
     new_demand = []
     count = 1
     new_demand.append(count)
-
     for i in range(2, len(demand)):
         if demand[i] > demand[i-1]:
             count += 1
