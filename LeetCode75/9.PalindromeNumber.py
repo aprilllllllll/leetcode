@@ -12,5 +12,4 @@ else:
         print(True)
     else: print(False)
 
-
 print(str(x)==str(x)[::-1])
