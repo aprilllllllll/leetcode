@@ -13,7 +13,7 @@ class Solution(object):
             left = i+1
             right = len(nums)-1
             while left <right:
-                
+            
 
                 sum = nums[i] + nums[left] + nums[right]
                 if sum == 0:
