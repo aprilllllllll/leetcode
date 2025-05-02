@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-    
+
         res = []
         nums.sort()
         for i in range(len(nums)):
