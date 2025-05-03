@@ -11,7 +11,6 @@ class Solution(object):
             if num == 1:
                 curr += 1  # Increment current segment count
             else:
-
                 max_length = max(max_length, prev + curr)  # Consider merging previous and current segments
                 print(prev,curr,max_length)
                 prev= curr  # Move current count to previous for next iteration
