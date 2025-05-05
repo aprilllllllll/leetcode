@@ -6,7 +6,6 @@ class Solution(object):
         """
         maxProfit = 0
         lowprice =float('inf')
-
         for p in prices:
 
             lowprice = min(lowprice,p)
