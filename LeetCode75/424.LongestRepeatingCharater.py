@@ -8,7 +8,7 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        
+
         max_len=0
         l=0
         seen ={}
