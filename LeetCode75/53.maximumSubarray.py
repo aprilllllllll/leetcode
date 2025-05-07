@@ -10,7 +10,6 @@ class Solution(object):
 
         maxSum = nums[0]
 
-
         for n in nums:
             c = c+n
             maxSum = max(maxSum,c)
