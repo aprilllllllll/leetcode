@@ -6,8 +6,7 @@ class Solution:
             if(x in nums):
                 y = nums.index(x)
                 if y!=i:
-                    return[i,y]
-           
+                    return[i,y]          
         return [] 
 # Example usage:
 solution = Solution()
