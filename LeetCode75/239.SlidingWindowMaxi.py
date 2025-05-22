@@ -13,7 +13,6 @@ class Solution(object):
         res = []
         l=0
         r =0
-
         while r<len(nums):
             
             while dq and nums[dq[-1]]<nums[r]:
