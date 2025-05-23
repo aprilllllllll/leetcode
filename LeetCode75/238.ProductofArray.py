@@ -8,7 +8,6 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-
         result = []
         left = [1]
         right =[1]
